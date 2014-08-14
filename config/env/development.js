@@ -8,7 +8,7 @@ module.exports = {
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || '840678929289353',
 		clientSecret: process.env.FACEBOOK_SECRET || 'fdc926da13b109af0fd87db45c350f62',
-		callbackURL: 'http://pokecity.herokuapp.com/auth/facebook/callback'
+		callbackURL: 'http://localhost:3000/auth/facebook/callback'
 	},
 	twitter: {
 		clientID: process.env.TWITTER_KEY || 'CONSUMER_KEY',
