@@ -11,9 +11,9 @@ module.exports = {
 		callbackURL: 'http://pokecity.herokuapp.com/auth/facebook/callback'
 	},
 	twitter: {
-		clientID: process.env.TWITTER_KEY || 'CONSUMER_KEY',
-		clientSecret: process.env.TWITTER_SECRET || 'CONSUMER_SECRET',
-		callbackURL: 'http://localhost:3000/auth/twitter/callback'
+		clientID: process.env.TWITTER_KEY || 'Mj9nBNQj30lJJpjJtS2Gvd5pN',
+		clientSecret: process.env.TWITTER_SECRET || 'B5K8Fm5W49RvLBezdkDkscV2QXCx2BjJhFPUzGvgFz0YNAaYb8',
+		callbackURL: 'http://pokecity.herokuapp.com/auth/twitter/callback'
 	},
 	google: {
 		clientID: process.env.GOOGLE_ID || 'APP_ID',
