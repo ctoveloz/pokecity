@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/pokecity-dev',
+	db: 'mongodb://pokeuser:pikachu1090@kahana.mongohq.com:10056/app28485715',
 	app: {
 		title: 'Pokecity - Development Environment'
 	},
